@@ -10,24 +10,24 @@ type.
 
 ## Default layer
 
-![Default layer layout](https://i.imgur.com/Max5R0T.png)
+![Layout](layer_default.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/b6d0b16a913e7d1faeafc9fc751c413f))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/b6d0b16a913e7d1faeafc9fc751c413f))
 
 ## Lower layer
 
-![Lower layer layout](https://i.imgur.com/E8Cfowc.png)
+![Layout](layer_lower.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/99dd65d3b857a272be7a1804b20bc266))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/99dd65d3b857a272be7a1804b20bc266))
 
 ## Raise layer
 
-![Raise layer layout](https://i.imgur.com/KomdMyB.png)
+![Layout](layer_raise.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/cf9e899867763dc45b65917ce4cf93ff))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/cf9e899867763dc45b65917ce4cf93ff))
 
 ## Adjust layer
 
-![Adjust layer layout](https://i.imgur.com/EtshZbn.png)
+![Layout](layer_adjust.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/7eb0f1c437169f30cc18eac271ad2302))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/7eb0f1c437169f30cc18eac271ad2302))

@@ -1,4 +1,4 @@
-# bcat's 60% Tsangan HHKB layout
+# bcat's 60% ANSI Tsangan HHKB layout
 
 This is a Tsangan/HHKB (split backspace, split right shift) layout following the
 [traditional HHKB layout](https://deskthority.net/wiki/HHKB_Professional2) with
@@ -27,18 +27,18 @@ a few changes:
 
 ## Default layer
 
-![Default layer layout](https://i.imgur.com/3tBxms8.png)
+![Layout](layer_default.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/86b33d75aa6f56d8781ab3d8475f4e77))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/86b33d75aa6f56d8781ab3d8475f4e77))
 
 ## Fn layer
 
-![Fn 1ayer layout](https://i.imgur.com/jn4HtA5.png)
+![Layout](layer_fn.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/f6311fd7e315de781143b80eb040a551))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/f6311fd7e315de781143b80eb040a551))
 
 ## Fn2 layer
 
-![Fn2 layer layout](https://i.imgur.com/4Jdw9eL.png)
+![Layout](layer_fn2.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/65ac939caec878401603bc36290852d4))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/65ac939caec878401603bc36290852d4))

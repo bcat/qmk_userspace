@@ -18,24 +18,24 @@ keys](/layouts/split_3x6_3/bcat) (Crkbd) layout with a few changes:
 
 ## Default layer
 
-![Default layer layout](https://i.imgur.com/0stG2GT.png)
+![Layout](layer_default.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/e0eb3af65961e9fd612dcff3ddd88e4f))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/e0eb3af65961e9fd612dcff3ddd88e4f))
 
 ## Lower layer
 
-![Lower layer layout](https://i.imgur.com/sNKWpUC.png)
+![Layout](layer_lower.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/19ad0d3b5d745fbb2818db09740f5a11))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/19ad0d3b5d745fbb2818db09740f5a11))
 
 ## Raise layer
 
-![Raise layer layout](https://i.imgur.com/NaWTavA.png)
+![Layout](layer_raise.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/912be7955f781cdaf692cc4d4c0b5823))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/912be7955f781cdaf692cc4d4c0b5823))
 
 ## Adjust layer
 
-![Adjust layer layout](https://i.imgur.com/XC2eR2M.png)
+![Layout](layer_adjust.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/8f6a3f08350a9bbe1d414b22bca4e6c7))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/8f6a3f08350a9bbe1d414b22bca4e6c7))

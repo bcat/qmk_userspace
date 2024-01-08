@@ -1,4 +1,4 @@
-# bcat's split 3x6 + 3 thumb keys layout
+# bcat's 3x6+3 split layout
 
 (See also the
 [BlueMicro](https://github.com/jpconstantineau/BlueMicro_BLE/tree/master/firmware/keyboards/crkbd/keymaps/bcat)
@@ -27,9 +27,9 @@ principles described below.
 
 ## Default layer
 
-![Default layer layout](https://i.imgur.com/g5N7g8D.png)
+![Layout](layer_default.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805aa895a5))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805aa895a5))
 
 * The alpha keys are a standard QWERTY layout, no funny business there.
 
@@ -53,9 +53,9 @@ principles described below.
 
 ## Lower layer
 
-![Lower layer layout](https://i.imgur.com/vaIc9JY.png)
+![Layout](layer_lower.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e34d3bc0))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e34d3bc0))
 
 * This could also be called the "symbol layer".
 
@@ -90,9 +90,9 @@ principles described below.
 
 ## Raise layer
 
-![Raise layer layout](https://i.imgur.com/VNEiV9A.png)
+![Layout](layer_raise.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e2821f91d7))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e2821f91d7))
 
 * This could also be called the "number layer".
 
@@ -117,9 +117,9 @@ principles described below.
 
 ## Adjust layer
 
-![Adjust layer layout](https://i.imgur.com/Q4rN6cQ.png)
+![Layout](layer_adjust.png)
 
-([KLE](http://www.keyboard-layout-editor.com/#/gists/77e7572e077b36a23eb2086017e16fee))
+([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/77e7572e077b36a23eb2086017e16fee))
 
 * Media keys are centered around the ESDF cluster, just like I arrange them on
   row-staggered keyboards. (It's even more sensible with columnar stagger.)
