@@ -1,12 +1,12 @@
 # bcat's Unicorne layout
 
 This ergo layout follows my preferred [split 3x6 + 3 thumb
-keys](https://github.com/qmk/qmk_firmware/tree/master/layouts/community/split_3x6_3/bcat)
-layout, adding bindings for the two rotary encoders on the bottom row. (The left
-encoder scrolls vertically and the right encoder adjusts volume.) Also, since
-the Unicorne keyboard has a speaker, I added bindings on the adjust layer to
-activate and configure music mode. Finally, an adorable unicorn prances on the
-OLED, running faster the quicker you type.
+keys](/layouts/split_3x6_3/bcat) layout, adding bindings for the two rotary
+encoders on the bottom row. (The left encoder scrolls vertically and the right
+encoder adjusts volume.) Also, since the Unicorne keyboard has a speaker, I
+added bindings on the adjust layer to activate and configure music mode.
+Finally, an adorable unicorn prances on the OLED, running faster the quicker you
+type.
 
 ## Default layer
 

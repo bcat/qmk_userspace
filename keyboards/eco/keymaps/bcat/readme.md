@@ -2,8 +2,7 @@
 
 This is a cute little 4x14 ortholinear keyboard. I've set it up using an
 unsplit, ortho version of my [split 3x6 + 3 thumb
-keys](https://github.com/qmk/qmk_firmware/tree/master/layouts/community/split_3x6_3/bcat)
-(Crkbd) layout, with the following changes:
+keys](/layouts/split_3x6_3/bcat) (Crkbd) layout, with the following changes:
 
 * The alpha keys are separated by an extra two columns in the middle to provide
   a little more hand separation, similar to a split keyboard.

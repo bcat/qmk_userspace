@@ -1,9 +1,9 @@
-# bcat's 60% ANSI split backspace/right-shift layout
+# bcat's 60% ANSI layout with split Backspace and Right Shift
 
 This is a hybrid of a Tsangan/HHKB layout and a standard ANSI bottom row. It's
 not my favorite layout, but it's nice enough if you only have a 6.25u spacebar.
 Other than the bottom row, this is identical to my regular [Tsangan
-layout](https://github.com/qmk/qmk_firmware/tree/master/layouts/community/60_tsangan_hhkb/bcat).
+layout](/layouts/60_tsangan_hhkb/bcat).
 
 ## Default layer
 
