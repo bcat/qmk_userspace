@@ -22,22 +22,26 @@ keys](/layouts/split_3x6_3/bcat) (Crkbd) layout, with the following changes:
 
 ![Layout](layer_default.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/2c11371c7a5f7cd08a0132631d3d3281))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/2c11371c7a5f7cd08a0132631d3d3281))
 
 ## Lower layer
 
 ![Layout](layer_lower.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/11256970dc0552886a82382ee02fa415))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/11256970dc0552886a82382ee02fa415))
 
 ## Raise layer
 
 ![Layout](layer_raise.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/308a8be75e0b85902dc18db1b2546862))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/308a8be75e0b85902dc18db1b2546862))
 
 ## Adjust layer
 
 ![Layout](layer_adjust.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/b18aafa0327d7e83eaf485546c067a21))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/b18aafa0327d7e83eaf485546c067a21))

@@ -29,7 +29,8 @@ principles described below.
 
 ![Layout](layer_default.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805aa895a5))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805aa895a5))
 
 * The alpha keys are a standard QWERTY layout, no funny business there.
 
@@ -55,7 +56,8 @@ principles described below.
 
 ![Layout](layer_lower.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e34d3bc0))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e34d3bc0))
 
 * This could also be called the "symbol layer".
 
@@ -92,7 +94,8 @@ principles described below.
 
 ![Layout](layer_raise.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e2821f91d7))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e2821f91d7))
 
 * This could also be called the "number layer".
 
@@ -119,7 +122,8 @@ principles described below.
 
 ![Layout](layer_adjust.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/77e7572e077b36a23eb2086017e16fee))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/77e7572e077b36a23eb2086017e16fee))
 
 * Media keys are centered around the ESDF cluster, just like I arrange them on
   row-staggered keyboards. (It's even more sensible with columnar stagger.)

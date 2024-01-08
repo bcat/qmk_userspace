@@ -12,22 +12,26 @@ type.
 
 ![Layout](layer_default.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/b6d0b16a913e7d1faeafc9fc751c413f))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/b6d0b16a913e7d1faeafc9fc751c413f))
 
 ## Lower layer
 
 ![Layout](layer_lower.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/99dd65d3b857a272be7a1804b20bc266))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/99dd65d3b857a272be7a1804b20bc266))
 
 ## Raise layer
 
 ![Layout](layer_raise.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/cf9e899867763dc45b65917ce4cf93ff))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/cf9e899867763dc45b65917ce4cf93ff))
 
 ## Adjust layer
 
 ![Layout](layer_adjust.png)
 
-([Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/7eb0f1c437169f30cc18eac271ad2302))
+([Keyboard Layout
+Editor](http://www.keyboard-layout-editor.com/#/gists/7eb0f1c437169f30cc18eac271ad2302))
