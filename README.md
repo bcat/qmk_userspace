@@ -1,58 +1,52 @@
-# QMK Userspace
+# bcat's QMK userspace
 
-This is a template repository which allows for an external set of QMK keymaps to be defined and compiled. This is useful for users who want to maintain their own keymaps without having to fork the main QMK repository.
+This repository holds the code and config for my mechanical keyboards using [QMK
+Firmware](https://qmk.fm/). These files can be used as an [external
+userspace](https://github.com/qmk/qmk_userspace) together with the main
+[firmware repo](https://github.com/qmk/qmk_firmware). See the [QMK
+documentation](https://docs.qmk.fm/#/newbs_external_userspace) for more details.
 
-## Howto configure your build targets
+I use community layouts wherever possible, only writing keyboard-specific
+keymaps for boards without standard layout support. I derive my keymaps from two
+canonical ones (preferred for typing and gaming, respectively).
 
-1. Run the normal `qmk setup` procedure if you haven't already done so -- see [QMK Docs](https://docs.qmk.fm/#/newbs) for details.
-1. Fork this repository
-1. Clone your fork to your local machine
-1. Add a new keymap for your board using `qmk new-keymap`
-    * This will create a new keymap in the `keyboards` directory, in the same location that would normally be used in the main QMK repository. For example, if you wanted to add a keymap for the Planck, it will be created in `keyboards/planck/keymaps/<your keymap name>`
-    * You can also create a new keymap using `qmk new-keymap -kb <your_keyboard> -km <your_keymap>`
-    * Alternatively, add your keymap manually by placing it in the location specified above.
-    * `layouts/<layout name>/<your keymap name>/keymap.*` is also supported if you prefer the layout system
-1. Add your keymap(s) to the build by running `qmk userspace-add -kb <your_keyboard> -km <your_keymap>`
-    * This will automatically update your `qmk.json` file
-    * Corresponding `qmk userspace-remove -kb <your_keyboard> -km <your_keymap>` will delete it
-    * Listing the build targets can be done with with `qmk userspace-list`
-1. Commit your changes
+You can build all keymaps I maintain at once using the
+[`users/bcat/compile.sh`](users/bcat/compile.sh) script. (The `qmk
+userspace-compile` command is not yet supported in my setup.)
 
-## Howto build with GitHub
+## Canonical keymaps
 
-1. In the GitHub Actions tab, enable workflows
-1. Push your changes above to your forked GitHub repository
-1. Look at the GitHub Actions for a new actions run
-1. Wait for the actions run to complete
-1. Inspect the Releases tab on your repository for the latest firmware build
+* [3x6+3 split layout](layouts/split_3x6_3/bcat): Columnar-staggered split ergo
+  layout, preferred for typing. Used on Crkbd.
 
-## Howto build locally
+* [60% ANSI Tsangan HHKB layout](layouts/60_tsangan_hhkb/bcat): Row-staggered
+  layout, preferred for gaming. Used on ai03 Polaris, CannonKeys AN-C,
+  CannonKeys Instant60, DZ60.
 
-1. Run the normal `qmk setup` procedure if you haven't already done so -- see [QMK Docs](https://docs.qmk.fm/#/newbs) for details.
-1. Fork this repository
-1. Clone your fork to your local machine
-1. `cd` into this repository's clone directory
-1. Set global userspace path: `qmk config user.overlay_dir="$(realpath .)"` -- you MUST be located in the cloned userspace location for this to work correctly
-    * This will be automatically detected if you've `cd`ed into your userspace repository, but the above makes your userspace available regardless of your shell location.
-1. Compile normally: `qmk compile -kb your_keyboard -km your_keymap` or `make your_keyboard:your_keymap`
+## Other keymaps
 
-Alternatively, if you configured your build targets above, you can use `qmk userspace-compile` to build all of your userspace targets at once.
+### Ergo
 
-## Extra info
+* [Lily58 layout](keyboards/lily58/keymaps/bcat)
+* [Unicorne layout](keyboards/yanghu/unicorne/keymaps/bcat)
 
-If you wish to point GitHub actions to a different repository, a different branch, or even a different keymap name, you can modify `.github/workflows/build_binaries.yml` to suit your needs.
+### Ortho
 
-To override the `build` job, you can change the following parameters to use a different QMK repository or branch:
-```
-    with:
-      qmk_repo: qmk/qmk_firmware
-      qmk_ref: master
-```
+* [Eco layout](keyboards/eco/keymaps/bcat)
 
-If you wish to manually manage `qmk_firmware` using git within the userspace repository, you can add `qmk_firmware` as a submodule in the userspace directory instead. GitHub Actions will automatically use the submodule at the pinned revision if it exists, otherwise it will use the default latest revision of `qmk_firmware` from the main repository.
+### Traditional
 
-This can also be used to control which fork is used, though only upstream `qmk_firmware` will have support for external userspace until other manufacturers update their forks.
+* [60% ANSI layout with split Backspace and Right
+  Shift](layouts/60_ansi_split_bs_rshift/bcat). Used on DZ60.
 
-1. (First time only) `git submodule add https://github.com/qmk/qmk_firmware.git`
-1. (To update) `git submodule update --init --recursive`
-1. Commit your changes to your userspace repository
+* [65% ANSI layout with blocker and split
+  Backspace](layouts/65_ansi_blocker_split_bs/bcat). Used on KBDfans KBD67
+  hotswap.
+
+* [Keebio Quefrency 65% layout](keyboards/keebio/quefrency/keymaps/bcat)
+
+### Macropads
+
+* [9-Key layout](keyboards/9key/keymaps/bcat)
+
+* [Keebio BDN9 layout](keyboards/keebio/bdn9/keymaps/bcat)
