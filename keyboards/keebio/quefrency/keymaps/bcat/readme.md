@@ -10,8 +10,8 @@ ESDF cluster), and RGB controls in the function layer (on the arrow/nav keys).
 
 ([KLE](http://www.keyboard-layout-editor.com/#/gists/60a262432bb340b37d364a4424f3037b))
 
-## Function layer
+## Fn layer
 
-![Function layer layout](https://i.imgur.com/7oCdN86.png)
+![Fn layer layout](https://i.imgur.com/7oCdN86.png)
 
 ([KLE](http://www.keyboard-layout-editor.com/#/gists/59636898946da51f91fb290f8e078b4d))

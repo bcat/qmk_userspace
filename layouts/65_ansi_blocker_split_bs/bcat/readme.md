@@ -10,8 +10,8 @@ keys, an HHKB-style (split) backspace, and media controls in the function layer
 
 ([KLE](http://www.keyboard-layout-editor.com/#/gists/dd675b40cc4df2c7bb78847ac29f5988))
 
-## Function layer
+## Fn layer
 
-![Function layer layout](https://i.imgur.com/s4hS9ZK.png)
+![Fn layer layout](https://i.imgur.com/s4hS9ZK.png)
 
 ([KLE](http://www.keyboard-layout-editor.com/#/gists/f29128427f674c43777f045e363d1b44))

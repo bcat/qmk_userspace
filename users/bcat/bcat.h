@@ -32,8 +32,8 @@ enum user_layer {
     LAYER_ADJUST,
 #else
     /* Function layers for traditional boards: */
-    LAYER_FUNCTION_1,
-    LAYER_FUNCTION_2,
+    LAYER_FN,
+    LAYER_FN2,
 #endif
 };
 
@@ -53,6 +53,6 @@ enum user_keycode {
 #    define LY_LWR MO(LAYER_LOWER)
 #    define LY_RSE MO(LAYER_RAISE)
 #else
-#    define LY_FN1 MO(LAYER_FUNCTION_1)
-#    define LY_FN2 MO(LAYER_FUNCTION_2)
+#    define LY_FN MO(LAYER_FN)
+#    define LY_FN2 MO(LAYER_FN2)
 #endif
