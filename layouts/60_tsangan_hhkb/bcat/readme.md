@@ -1,17 +1,17 @@
 # bcat's 60% ANSI Tsangan HHKB layout
 
 This is a Tsangan/HHKB (split backspace, split right shift) layout following the
-[traditional HHKB layout](https://deskthority.net/wiki/HHKB_Professional2) with
-a few changes:
+[traditional HHKB layout](https://hhkb.io/layout/) with some custom [DIP
+switch](https://hhkb.io/components/controllers/) settings and a few more tweaks:
 
-* The Delete key is mapped as Backspace (HHKB DIP switch 3).
+* The Delete key is mapped as Backspace (SW3).
 
 * The Alt and Super keys are swapped to put Alt directly adjacent to the
-  spacebar (HHKB DIP switch 5).
+  spacebar (SW5).
 
-* The left Super key is replaced with another Fn key (HHKB DIP switch 2). Unlike
-  on the real HHKB, this key triggers a different Fn2 layer. (This also helps
-  prevent accidental Super key presses while gaming.)
+* The left Super key is replaced with another Fn key (SW4). Unlike on the
+  original HHKB, this key triggers an Fn2 layer that's distinct from the normal
+  Fn layer.
 
 * The Fn2 layer contains reset keys, RGB underglow and backlight controls (in
   place of the arrow and navigation keys), and media controls (centered around
@@ -23,7 +23,7 @@ a few changes:
 
 * The leftmost and rightmost bottom row keys are mapped to Ctrl rather than
   anything more useful because most of my Tsangan PCBs actually have HHKB plates
-  and/or blockers, so there aren't switches installed in those positions.
+  and/or blockers, so there likely aren't switches installed in those positions.
 
 ## Default layer
 
