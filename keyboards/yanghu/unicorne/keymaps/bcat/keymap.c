@@ -71,7 +71,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 }
 
 #if defined(OLED_ENABLE)
-oled_rotation_t oled_init_user(oled_rotation_t rotation) { return OLED_ROTATION_270; }
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_270;
+}
 
 void oled_task_keymap(const oled_keyboard_state_t *keyboard_state) {
     render_oled_layers();

@@ -21,7 +21,9 @@
 static int8_t alt_tab_layer = -1;
 
 __attribute__((weak)) void process_record_oled(uint16_t keycode, const keyrecord_t *record) {}
-__attribute__((weak)) bool process_record_keymap(uint16_t keycode, keyrecord_t *record) { return true; }
+__attribute__((weak)) bool process_record_keymap(uint16_t keycode, keyrecord_t *record) {
+    return true;
+}
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     process_record_oled(keycode, record);
@@ -46,7 +48,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
 }
 
-__attribute__((weak)) layer_state_t layer_state_set_keymap(layer_state_t state) { return state; }
+__attribute__((weak)) layer_state_t layer_state_set_keymap(layer_state_t state) {
+    return state;
+}
 
 layer_state_t layer_state_set_user(layer_state_t state) {
     state = layer_state_set_keymap(state);

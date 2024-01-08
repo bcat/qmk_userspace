@@ -56,11 +56,19 @@ typedef union {
 #define NUM_FRAMES 2
 #define FRAME_BYTES 96 /* (32 pixel) * (24 pixel) / (8 pixel/byte) */
 
-uint16_t oled_pet_frame_bytes(void) { return FRAME_BYTES; }
-uint8_t  oled_pet_frame_lines(void) { return 3 /* (24 pixel) / (8 pixel/line) */; }
-bool     oled_pet_can_jump(void) { return true; }
+uint16_t oled_pet_frame_bytes(void) {
+    return FRAME_BYTES;
+}
+uint8_t oled_pet_frame_lines(void) {
+    return 3 /* (24 pixel) / (8 pixel/line) */;
+}
+bool oled_pet_can_jump(void) {
+    return true;
+}
 
-uint16_t oled_pet_update_millis(const oled_keyboard_state_t *keyboard_state) { return 200; }
+uint16_t oled_pet_update_millis(const oled_keyboard_state_t *keyboard_state) {
+    return 200;
+}
 
 oled_pet_state_t oled_pet_next_state(oled_pet_state_t state, const oled_keyboard_state_t *keyboard_state) {
     luna_state_t luna_state = {.raw = state};

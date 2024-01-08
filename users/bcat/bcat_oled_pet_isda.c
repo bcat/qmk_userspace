@@ -42,9 +42,15 @@
 #define NUM_FRAMES 4
 #define FRAME_BYTES 288 /* (32 pixel) * (72 pixel) / (8 pixel/byte) */
 
-uint16_t oled_pet_frame_bytes(void) { return FRAME_BYTES; }
-uint8_t  oled_pet_frame_lines(void) { return 9 /* (72 pixel) / (8 pixel/line) */; }
-bool     oled_pet_can_jump(void) { return false; }
+uint16_t oled_pet_frame_bytes(void) {
+    return FRAME_BYTES;
+}
+uint8_t oled_pet_frame_lines(void) {
+    return 9 /* (72 pixel) / (8 pixel/line) */;
+}
+bool oled_pet_can_jump(void) {
+    return false;
+}
 
 uint16_t oled_pet_update_millis(const oled_keyboard_state_t *keyboard_state) {
     static const uint16_t MIN_MILLIS = 75;
