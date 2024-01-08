@@ -5,17 +5,17 @@ keys](https://github.com/qmk/qmk_firmware/tree/master/layouts/community/split_3x
 (Crkbd) layout with a few changes:
 
 * There's an optional number row at the top of the keyboard. I am quite used to
-using layers for numbers and symbols, so in practice this goes unused.
+  using layers for numbers and symbols, so in practice this goes unused.
 
 * The dedicated Hyphen/Underscore and Equals/Plus keys on the number row are
-placed in the same positions as on the ErgoDox EZ. (There's no real reason for
-this; I just had to do _something_ with those keys.)
+  placed in the same positions as on the ErgoDox EZ. (There's no real reason for
+  this; I just had to do _something_ with those keys.)
 
 * The extra thumb keys on the bottom row are used for a Left Alt key (for easier
-Alt+Tab, Alt+F4, etc.) and a dedicated Super key.
+  Alt+Tab, Alt+F4, etc.) and a dedicated Super key.
 
 * The harder-to-reach thumb keys below the controllers are bound to browser
-back/forward navigation keys.
+  back/forward navigation keys.
 
 ## Default layer
 
