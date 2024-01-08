@@ -6,6 +6,10 @@ else
 	BOOTMAGIC_ENABLE = no
 endif
 
+# Enable tri-layer support on all keyboards. (Technically, only ortho and ergo
+# keyboards need this, but it's harmless on other boards.)
+TRI_LAYER_ENABLE = yes
+
 # Enable media keys on all keyboards.
 EXTRAKEY_ENABLE = yes
 

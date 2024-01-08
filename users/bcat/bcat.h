@@ -19,6 +19,7 @@
 #include <stdbool.h>
 
 #include "quantum_keycodes.h"
+#include "tri_layer.h"
 
 /* Layer numbers shared across keymaps. */
 enum user_layer {
@@ -27,9 +28,9 @@ enum user_layer {
 
 #if defined(BCAT_ORTHO_LAYERS)
     /* Function layers for ortho (and ergo) boards: */
-    LAYER_LOWER,
-    LAYER_RAISE,
-    LAYER_ADJUST,
+    LAYER_LOWER  = TRI_LAYER_LOWER_LAYER,
+    LAYER_RAISE  = TRI_LAYER_UPPER_LAYER,
+    LAYER_ADJUST = TRI_LAYER_ADJUST_LAYER,
 #else
     /* Function layers for traditional boards: */
     LAYER_FN,
@@ -49,10 +50,7 @@ enum user_keycode {
 #define KY_ZMOUT LCTL(KC_MINS)
 #define KY_ZMRST LCTL(KC_0)
 
-#if defined(BCAT_ORTHO_LAYERS)
-#    define LY_LWR MO(LAYER_LOWER)
-#    define LY_RSE MO(LAYER_RAISE)
-#else
+#if !defined(BCAT_ORTHO_LAYERS)
 #    define LY_FN MO(LAYER_FN)
 #    define LY_FN2 MO(LAYER_FN2)
 #endif
