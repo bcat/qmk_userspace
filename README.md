@@ -16,14 +16,15 @@ userspace-compile` command is not yet supported in my setup.)
 
 ## Canonical keymaps
 
-* [3x6+3 split layout](layouts/split_3x6_3/bcat): Columnar-staggered split ergo
-  layout, preferred for typing. Used on Crkbd.
+* [3x6+3 split layout](layouts/split_3x6_3/bcat)
+  * Used on: Crkbd
+  * Columnar-staggered split ergo layout, preferred for typing
 
-* [60% ANSI Tsangan HHKB layout](layouts/60_tsangan_hhkb/bcat): Row-staggered
-  layout, preferred for gaming. Used on ai03 Polaris, CannonKeys AN-C,
-  CannonKeys Instant60, DZ60.
+* [60% ANSI Tsangan HHKB layout](layouts/60_tsangan_hhkb/bcat)
+  * Used on: ai03 Polaris, CannonKeys AN-C, CannonKeys Instant60, DZ60
+  * Row-staggered layout, preferred for gaming
 
-## Other keymaps
+## Additional keymaps
 
 ### Ergo
 
@@ -37,11 +38,12 @@ userspace-compile` command is not yet supported in my setup.)
 ### Traditional
 
 * [60% ANSI layout with split Backspace and Right
-  Shift](layouts/60_ansi_split_bs_rshift/bcat). Used on DZ60.
+  Shift](layouts/60_ansi_split_bs_rshift/bcat)
+  * Used on: DZ60
 
 * [65% ANSI layout with blocker and split
-  Backspace](layouts/65_ansi_blocker_split_bs/bcat). Used on KBDfans KBD67
-  hotswap.
+  Backspace](layouts/65_ansi_blocker_split_bs/bcat)
+  * Used on: KBDfans KBD67 hotswap
 
 * [Keebio Quefrency 65% layout](keyboards/keebio/quefrency/keymaps/bcat)
 
