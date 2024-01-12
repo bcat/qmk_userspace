@@ -6,10 +6,6 @@ else
 	BOOTMAGIC_ENABLE = no
 endif
 
-# Enable tri-layer support on all keyboards. (Technically, only ortho and ergo
-# keyboards need this, but it's harmless on other boards.)
-TRI_LAYER_ENABLE = yes
-
 # Enable media keys on all keyboards.
 EXTRAKEY_ENABLE = yes
 
@@ -28,6 +24,11 @@ SRC += bcat.c
 
 # Include additional utilities that extend optional QMK features only enabled
 # on some keyboards.
+ifeq ($(strip $(BCAT_ORTHO_LAYERS)), yes)
+	TRI_LAYER_ENABLE = yes
+	OPT_DEFS += -DBCAT_ORTHO_LAYERS
+endif
+
 ifeq ($(strip $(OLED_ENABLE)), yes)
 	SRC += bcat_oled.c
 	WPM_ENABLE = yes  # for WPM and animated "keyboard pet" widgets

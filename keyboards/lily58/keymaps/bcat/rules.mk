@@ -1,3 +1,4 @@
-BCAT_OLED_PET = luna
+BOOTLOADER = atmel-dfu # Elite-C
 
-BOOTLOADER = atmel-dfu  # Elite-C
+BCAT_OLED_PET = luna
+BCAT_ORTHO_LAYERS = yes
