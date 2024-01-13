@@ -4,6 +4,31 @@ This is a Tsangan/HHKB (split Backspace, split Right Shift) layout based on the
 [traditional HHKB layout](https://hhkb.io/layout/) with some custom [DIP
 switch](https://hhkb.io/components/controllers/) settings and a few more tweaks:
 
+## Default layer
+
+![Layout](layer_default.png)
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/86b33d75aa6f56d8781ab3d8475f4e77)
+
+## Function layer
+
+![Layout](layer_function.png)
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/f6311fd7e315de781143b80eb040a551)
+
+## Adjust layer
+
+![Layout](layer_adjust.png)
+
+* Activated by holding the Left Fn and Right Fn keys simultaneously.
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/65ac939caec878401603bc36290852d4)
+
+## Notes
+
 * The Delete key is mapped as Backspace (SW3).
 
 * The Alt and Super keys are swapped to put Alt directly adjacent to the
@@ -27,24 +52,3 @@ switch](https://hhkb.io/components/controllers/) settings and a few more tweaks:
   anything more useful because many of my Tsangan PCBs have HHKB-layout plates
   and/or blockers, and so it's not even guaranteed there are switches installed
   in these positions.
-
-## Default layer
-
-![Layout](layer_default.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/86b33d75aa6f56d8781ab3d8475f4e77))
-
-## Function layer
-
-![Layout](layer_function.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/f6311fd7e315de781143b80eb040a551))
-
-## Adjust layer
-
-![Layout](layer_adjust.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/65ac939caec878401603bc36290852d4))

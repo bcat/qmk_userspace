@@ -1,15 +1,46 @@
 # bcat's 3x6+3 split layout
 
-(See also the
-[BlueMicro](https://github.com/jpconstantineau/BlueMicro_BLE/tree/master/firmware/keyboards/crkbd/keymaps/bcat)
-and [ZMK](https://github.com/bcat/zmk-config/blob/master/config/corne.keymap)
-versions of this keymap.)
-
-This is my favorite split ergo layout for typing, featuring the [traditional
+This is my preferred split ergo layout for typing, featuring [traditional
 ortho/ergo layers](https://docs.qmk.fm/#/feature_tri_layer) (default, lower,
 raise, adjust). It is loosely inspired by the default Planck (numbers on Lower,
 symbols on Raise) and Crkbd (Space on left, Enter on right) layouts, but has
 since been redesigned heavily according to the principles described below.
+
+See also the
+[ZMK](https://github.com/bcat/zmk-config/blob/master/config/corne.keymap)
+version of this keymap.
+
+## Default layer
+
+![Layout](layer_default.png)
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805aa895a5)
+
+## Lower layer
+
+![Layout](layer_lower.png)
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e34d3bc0)
+
+## Raise layer
+
+![Layout](layer_raise.png)
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e2821f91d7)
+
+## Adjust layer
+
+![Layout](layer_adjust.png)
+
+* Activated by holding the Lower and Raise keys simultaneously.
+
+* [Keyboard Layout
+  Editor](http://www.keyboard-layout-editor.com/#/gists/77e7572e077b36a23eb2086017e16fee)
+
+## Notes
 
 * Since my most-frequently-used keyboard shortcuts involve Ctrl, which lives on
   the left half of the keyboard, keys frequently used with it (numbers, function
@@ -25,12 +56,7 @@ since been redesigned heavily according to the principles described below.
 * Likewise, Backspace is not rebound on layers to avoid having to let go of
   layer-switch keys to correct mistakes.
 
-## Default layer
-
-![Layout](layer_default.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805aa895a5))
+### Default layer
 
 * The alpha keys are a standard QWERTY layout, no funny business there.
 
@@ -52,12 +78,7 @@ Editor](http://www.keyboard-layout-editor.com/#/gists/08d9827d916662a9414f48805a
   elimination. (I would really like one more 1U thumb key on each half to allow
   for a redundant Alt key on the left and a dedicated Super key on the right.)
 
-## Lower layer
-
-![Layout](layer_lower.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e34d3bc0))
+### Lower layer
 
 * This could also be called the "symbol layer".
 
@@ -90,12 +111,7 @@ Editor](http://www.keyboard-layout-editor.com/#/gists/c3fba5eaa2cd70fdfbdbc0f9e3
   as long as the Lower key is held down. This means that window switching is on
   Lower+Tab immediately next to browser tab switching (Ctrl+Tab).
 
-## Raise layer
-
-![Layout](layer_raise.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e2821f91d7))
+### Raise layer
 
 * This could also be called the "number layer".
 
@@ -118,12 +134,7 @@ Editor](http://www.keyboard-layout-editor.com/#/gists/08b44355d4ca85d294bad9e282
 * Caps Lock is bound in the same position as on an HHKB, for lack of an obvious
   better location.
 
-## Adjust layer
-
-![Layout](layer_adjust.png)
-
-([Keyboard Layout
-Editor](http://www.keyboard-layout-editor.com/#/gists/77e7572e077b36a23eb2086017e16fee))
+### Adjust layer
 
 * Media keys are centered around the ESDF cluster, just like I arrange them on
   row-staggered keyboards. (It's even more sensible with columnar stagger.)
