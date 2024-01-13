@@ -1,9 +1,11 @@
 # bcat's 60% ANSI layout with split Backspace and Right Shift
 
-This is a hybrid of a Tsangan/HHKB layout and a standard ANSI bottom row. It's
-not my favorite layout, but it's nice enough if you only have a 6.25u spacebar.
-Other than the bottom row, this is identical to my regular [Tsangan
-layout](/layouts/60_tsangan_hhkb/bcat).
+This layout features an HHKB-style split Backspace and Right Shift together with
+a standard ANSI bottom row. It's not my favorite layout, but can be useful when
+used with a keycap set that only includes a 6.25u spacebar. This keymap is
+configured identically to my preferred [Tsangan
+layout](/layouts/60_tsangan_hhkb/bcat), with the additional bottom row position
+mapped to the Menu key.
 
 ## Default layer
 
