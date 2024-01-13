@@ -1,6 +1,6 @@
 # bcat's 60% ANSI Tsangan HHKB layout
 
-This is a Tsangan/HHKB (split backspace, split right shift) layout following the
+This is a Tsangan/HHKB (split Backspace, split Right Shift) layout based on the
 [traditional HHKB layout](https://hhkb.io/layout/) with some custom [DIP
 switch](https://hhkb.io/components/controllers/) settings and a few more tweaks:
 
@@ -9,21 +9,24 @@ switch](https://hhkb.io/components/controllers/) settings and a few more tweaks:
 * The Alt and Super keys are swapped to put Alt directly adjacent to the
   spacebar (SW5).
 
-* The left Super key is replaced with another Fn key (SW4). Unlike on the
-  original HHKB, this key triggers an Fn2 layer that's distinct from the normal
-  Fn layer.
+* The Left Super key is replaced with another Fn key (SW4). This enables F1
+  through F6 to be typed with the left hand, without taking the right hand off
+  the mouse, which is quite useful while gaming.
 
-* The Fn2 layer contains reset keys, RGB underglow and backlight controls (in
+* When both Fn keys are pressed simultaneously, an "adjust layer" activates to
+  allow keyboard configuration. (This is similar to QMK's [tri-layer
+  feature](https://docs.qmk.fm/#/feature_tri_layer) commonly used on ortholinear
+  keyboards, except that the Left Fn and Right Fn keys both active the same
+  function layer when pressed on their own.)
+
+* The adjust layer contains reset keys, RGB underglow and backlight controls (in
   place of the arrow and navigation keys), and media controls (centered around
   the ESDF cluster).
 
-* The Fn2 layer also has the F1-F12 keys mapped just like the Fn layer. This is
-  a concession to gaming because it enables these keys to be easily typed with
-  the left hand, without taking the right hand off the mouse.
-
 * The leftmost and rightmost bottom row keys are mapped to Ctrl rather than
-  anything more useful because most of my Tsangan PCBs actually have HHKB plates
-  and/or blockers, so there likely aren't switches installed in those positions.
+  anything more useful because many of my Tsangan PCBs have HHKB-layout plates
+  and/or blockers, and so it's not even guaranteed there are switches installed
+  in these positions.
 
 ## Default layer
 
@@ -32,16 +35,16 @@ switch](https://hhkb.io/components/controllers/) settings and a few more tweaks:
 ([Keyboard Layout
 Editor](http://www.keyboard-layout-editor.com/#/gists/86b33d75aa6f56d8781ab3d8475f4e77))
 
-## Fn layer
+## Function layer
 
-![Layout](layer_fn.png)
+![Layout](layer_function.png)
 
 ([Keyboard Layout
 Editor](http://www.keyboard-layout-editor.com/#/gists/f6311fd7e315de781143b80eb040a551))
 
-## Fn2 layer
+## Adjust layer
 
-![Layout](layer_fn2.png)
+![Layout](layer_adjust.png)
 
 ([Keyboard Layout
 Editor](http://www.keyboard-layout-editor.com/#/gists/65ac939caec878401603bc36290852d4))

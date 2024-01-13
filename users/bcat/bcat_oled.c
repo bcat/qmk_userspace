@@ -92,11 +92,11 @@ void render_oled_layers(void) {
     oled_write_char(IS_LAYER_ON(LAYER_RAISE) ? TRIANGLE_UP : ' ', /*invert=*/false);
 #else
     switch (get_highest_layer(layer_state)) {
-        case LAYER_FUNCTION_1:
-            oled_write_P(PSTR("FN1"), /*invert=*/false);
+        case LAYER_FUNCTION:
+            oled_write_P(PSTR("FN"), /*invert=*/false);
             break;
-        case LAYER_FUNCTION_2:
-            oled_write_P(PSTR("FN2"), /*invert=*/false);
+        case LAYER_ADJUST:
+            oled_write_P(PSTR("ADJ"), /*invert=*/false);
             break;
         default:
             oled_write_P(PSTR("   "), /*invert=*/false);

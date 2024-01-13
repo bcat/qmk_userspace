@@ -5,15 +5,15 @@
 and [ZMK](https://github.com/bcat/zmk-config/blob/master/config/corne.keymap)
 versions of this keymap.)
 
-This is my favorite split ergo layout for typing, featuring the traditional four
-ortho/ergo layers (Default, Lower, Raise, Adjust). It is loosely inspired by the
-default Planck (numbers on Lower, symbols on Raise) and Crkbd (Space on left,
-Enter on right) layouts, but has since been redesigned heavily according to the
-principles described below.
+This is my favorite split ergo layout for typing, featuring the [traditional
+ortho/ergo layers](https://docs.qmk.fm/#/feature_tri_layer) (default, lower,
+raise, adjust). It is loosely inspired by the default Planck (numbers on Lower,
+symbols on Raise) and Crkbd (Space on left, Enter on right) layouts, but has
+since been redesigned heavily according to the principles described below.
 
 * Since my most-frequently-used keyboard shortcuts involve Ctrl, which lives on
   the left half of the keyboard, keys frequently used with it (numbers, function
-  keys, etc.) are on the Raise layer activated by the right thumb.
+  keys, etc.) are on the raise layer activated by the right thumb.
 
 * Navigation can be done on the right half alone, to enable simultaneous
   left-handed mousing. Additionally, Web pages can be scrolled with Space or
