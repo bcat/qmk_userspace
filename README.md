@@ -10,10 +10,6 @@ I use community layouts wherever possible, only writing keyboard-specific
 keymaps for boards without standard layout support. I derive my keymaps from two
 canonical ones (preferred for typing and gaming, respectively).
 
-You can build all keymaps I maintain at once using the
-[`users/bcat/compile.sh`](users/bcat/compile.sh) script. (The `qmk
-userspace-compile` command is not yet supported in my setup.)
-
 ## Canonical keymaps
 
 * [3x6+3 split layout](layouts/split_3x6_3/bcat)

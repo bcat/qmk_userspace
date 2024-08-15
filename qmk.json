@@ -1,4 +1,60 @@
 {
-    "userspace_version": "1.0",
-    "build_targets": []
+    "userspace_version": "1.1",
+    "build_targets": [
+        ["9key", "bcat"],
+        [
+            "ai03/polaris",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "60_tsangan_hhkb"
+            }
+        ],
+        [
+            "cannonkeys/an_c",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "60_tsangan_hhkb"
+            }
+        ],
+        [
+            "cannonkeys/instant60",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "60_tsangan_hhkb"
+            }
+        ],
+        [
+            "crkbd/rev1",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "split_3x6_3"
+            }
+        ],
+        [
+            "dz60",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "60_ansi_split_bs_rshift"
+            }
+        ],
+        [
+            "dz60",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "60_tsangan_hhkb"
+            }
+        ],
+        ["eco/rev2", "bcat"],
+        [
+            "kbdfans/kbd67/hotswap",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "65_ansi_blocker_split_bs"
+            }
+        ],
+        ["keebio/bdn9/rev1", "bcat"],
+        ["keebio/quefrency/rev1", "bcat"],
+        ["lily58/rev1", "bcat"],
+        ["yanghu/unicorne/f411", "bcat"]
+    ]
 }
