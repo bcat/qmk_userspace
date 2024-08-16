@@ -16,8 +16,9 @@ EXTRAKEY_ENABLE = yes
 # reports a keyboard or mouse device.)
 NKRO_ENABLE = yes
 
-# Enable link-time optimization to reduce binary size.
+# Enable link-time optimization and jump relaxing to reduce binary size.
 LTO_ENABLE = yes
+AVR_CFLAGS += -mrelax
 
 # Include common utilities shared across all our keymaps.
 SRC += bcat.c
