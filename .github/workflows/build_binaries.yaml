@@ -12,6 +12,13 @@ jobs:
     with:
       qmk_repo: qmk/qmk_firmware
       qmk_ref: master
+      preparation_command: |
+        # Update avr-gcc toolchain to support -mrelax for smaller binaries.
+        set -e
+        apt update && apt -y install curl
+        mkdir -p ~/sdk/qmk
+        curl -Lf https://github.com/qmk/qmk_toolchains/releases/download/v14.2.0-3/qmk_toolchains-gcc14.2.0-host_linuxX64.tar.xz | tar -Jxf - -C ~/sdk/qmk --strip-components=1
+        printf "%s/sdk/qmk/bin\n" "$HOME" >>"$GITHUB_PATH"
 
   publish:
     name: 'QMK Userspace Publish'
