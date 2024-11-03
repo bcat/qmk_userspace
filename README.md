@@ -16,7 +16,8 @@ canonical ones (preferred for typing and gaming, respectively).
   * Used on: Crkbd
   * Columnar-staggered split ergo layout, preferred for typing
 
-* [60% ANSI Tsangan HHKB layout](layouts/60_tsangan_hhkb/bcat)
+* [60% ANSI Tsangan layout with split Backspace and Right
+  Shift](layouts/60_ansi_tsangan_split_bs_rshift/bcat)
   * Used on: ai03 Polaris, CannonKeys AN-C, CannonKeys Instant60, DZ60
   * Row-staggered layout, preferred for gaming
 

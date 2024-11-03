@@ -1,4 +1,4 @@
-# bcat's 60% ANSI Tsangan HHKB layout
+# bcat's 60% ANSI Tsangan layout with split Backspace and Right Shift
 
 This is a Tsangan/HHKB (split Backspace, split Right Shift) layout based on the
 [traditional HHKB layout](https://hhkb.io/layout/) with some custom [DIP

@@ -6,21 +6,21 @@
             "ai03/polaris",
             "bcat",
             {
-                "FORCE_LAYOUT": "60_tsangan_hhkb"
+                "FORCE_LAYOUT": "60_ansi_tsangan_split_bs_rshift"
             }
         ],
         [
             "cannonkeys/an_c",
             "bcat",
             {
-                "FORCE_LAYOUT": "60_tsangan_hhkb"
+                "FORCE_LAYOUT": "60_ansi_tsangan_split_bs_rshift"
             }
         ],
         [
             "cannonkeys/instant60",
             "bcat",
             {
-                "FORCE_LAYOUT": "60_tsangan_hhkb"
+                "FORCE_LAYOUT": "60_ansi_tsangan_split_bs_rshift"
             }
         ],
         [
@@ -41,7 +41,7 @@
             "dz60",
             "bcat",
             {
-                "FORCE_LAYOUT": "60_tsangan_hhkb"
+                "FORCE_LAYOUT": "60_ansi_tsangan_split_bs_rshift"
             }
         ],
         ["eco/rev2", "bcat"],
