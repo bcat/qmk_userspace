@@ -61,28 +61,6 @@ static void layer_state_set_alt_tab(layer_state_t state) {
     }
 }
 
-#if !defined(BCAT_ORTHO_LAYERS)
-/* Process Left Fn and Right Fn keycodes. These keycodes support provide limited
- * version of tri-layer support for non-ortho keyboards. The function layer will
- * be activated if _either_ key is pressed, whereas the adjust layer will be
- * activated if _both_ keys are pressed.
- */
-static void process_fn(uint16_t keycode, keyrecord_t *record) {
-    static bool fn_key_down[2];
-    fn_key_down[keycode == CC_RFN ? 1 : 0] = record->event.pressed;
-    if (fn_key_down[0] || fn_key_down[1]) {
-        layer_on(LAYER_FUNCTION);
-    } else {
-        layer_off(LAYER_FUNCTION);
-    }
-    if (fn_key_down[0] && fn_key_down[1]) {
-        layer_on(LAYER_ADJUST);
-    } else {
-        layer_off(LAYER_ADJUST);
-    }
-}
-#endif
-
 /* QMK hooks: */
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
@@ -94,12 +72,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case CC_ALTT:
             process_alt_tab(record);
             return false;
-#if !defined(BCAT_ORTHO_LAYERS)
-        case CC_LFN:
-        case CC_RFN:
-            process_fn(keycode, record);
-            return false;
-#endif
     }
     return true;
 }

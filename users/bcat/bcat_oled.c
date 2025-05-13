@@ -86,23 +86,9 @@ bool oled_task_user(void) {
 void render_oled_layers(void) {
     oled_advance_char();
     oled_advance_char();
-#if defined(BCAT_ORTHO_LAYERS)
     oled_write_char(IS_LAYER_ON(LAYER_LOWER) ? TRIANGLE_DOWN : ' ', /*invert=*/false);
     oled_advance_char();
     oled_write_char(IS_LAYER_ON(LAYER_RAISE) ? TRIANGLE_UP : ' ', /*invert=*/false);
-#else
-    switch (get_highest_layer(layer_state)) {
-        case LAYER_FUNCTION:
-            oled_write_P(PSTR("FN"), /*invert=*/false);
-            break;
-        case LAYER_ADJUST:
-            oled_write_P(PSTR("ADJ"), /*invert=*/false);
-            break;
-        default:
-            oled_write_P(PSTR("   "), /*invert=*/false);
-            break;
-    }
-#endif
 }
 
 void render_oled_indicators(led_t leds) {

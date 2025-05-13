@@ -22,29 +22,15 @@
 
 /* Layer numbers shared across keymaps. */
 enum user_layer {
-    /* Base layers: */
     LAYER_DEFAULT,
-
-#if defined(BCAT_ORTHO_LAYERS)
-    /* Function layers for ortho (and ergo) boards: */
     LAYER_LOWER,
     LAYER_RAISE,
-#else
-    /* Function layers for traditional boards: */
-    LAYER_FUNCTION,
-#endif
-
-    /* Configuration layers: */
     LAYER_ADJUST,
 };
 
 /* Custom keycodes shared across keymaps. */
 enum user_keycode {
     CC_ALTT = SAFE_RANGE,
-#if !defined(BCAT_ORTHO_LAYERS)
-    CC_LFN,
-    CC_RFN,
-#endif
     KEYMAP_SAFE_RANGE,
 };
 

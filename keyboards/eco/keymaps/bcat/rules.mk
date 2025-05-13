@@ -1,5 +1,3 @@
 BOOTLOADER = atmel-dfu # Elite-C
 
 RGBLIGHT_ENABLE = yes
-
-BCAT_ORTHO_LAYERS = yes

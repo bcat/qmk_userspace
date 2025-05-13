@@ -1,2 +1,1 @@
 BCAT_OLED_PET = isda
-BCAT_ORTHO_LAYERS = yes

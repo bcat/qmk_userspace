@@ -6,8 +6,9 @@ else
 	BOOTMAGIC_ENABLE = no
 endif
 
-# Enable media keys on all keyboards.
+# Enable critical features on all keyboards.
 EXTRAKEY_ENABLE = yes
+TRI_LAYER_ENABLE = yes
 
 # Enable N-key rollover on all keyboards. In addition to its intended
 # functionality, as of July 2020, this is required for Chrome OS to process
@@ -25,11 +26,6 @@ SRC += bcat.c
 
 # Include additional utilities that extend optional QMK features only enabled
 # on some keyboards.
-ifeq ($(strip $(BCAT_ORTHO_LAYERS)), yes)
-	TRI_LAYER_ENABLE = yes
-	OPT_DEFS += -DBCAT_ORTHO_LAYERS
-endif
-
 ifeq ($(strip $(OLED_ENABLE)), yes)
 	SRC += bcat_oled.c
 	WPM_ENABLE = yes  # for WPM and animated "keyboard pet" widgets

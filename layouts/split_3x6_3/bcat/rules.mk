@@ -1,5 +1,3 @@
-BCAT_ORTHO_LAYERS = yes
-
 ifeq ($(strip $(KEYBOARD)), crkbd/rev1)
 	BOOTLOADER = atmel-dfu  # Elite-C
 

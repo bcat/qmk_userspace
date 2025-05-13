@@ -28,9 +28,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [LAYER_DEFAULT] = LAYOUT(
         KC_MPLY,  KC_VOLU,  KY_RHAND,
         KY_LOCK,  KC_VOLD,  KY_MICU,
-        CC_LFN,   KC_MUTE,  KY_MICM
+        TL_LOWR,  KC_MUTE,  KY_MICM
     ),
-    [LAYER_FUNCTION] = LAYOUT(
+    [LAYER_LOWER ... LAYER_ADJUST] = LAYOUT(
         EE_CLR,   _______,  QK_BOOT,
         _______,  _______,  _______,
         _______,  _______,  _______
