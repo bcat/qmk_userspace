@@ -49,3 +49,23 @@ canonical ones (preferred for typing and gaming, respectively).
 * [9-Key layout](keyboards/9key/keymaps/bcat)
 
 * [Keebio BDN9 layout](keyboards/keebio/bdn9/keymaps/bcat)
+
+## License
+
+QMK Firmware is licensed under the
+[GPL-2.0-or-later](https://spdx.org/licenses/GPL-2.0-or-later.html) license, and
+any code in this repo originating from QMK is licensed under these terms.
+
+To promote reuse in projects with more permissive licenses, anything in this
+repo authored by me (e.g., the `keyboards`, `layouts`, and `users` directories)
+is licensed under the [ISC](https://spdx.org/licenses/ISC.html) license instead,
+with the following exceptions:
+
+* `users/bcat/bcat_oled_pet_isda.c` incorporates artwork licensed under the
+  GPL-2.0-or-later.
+* `users/bcat/bcat_oled_pet_luna.c` incorporates code and artwork licensed under
+  the GPL-2.0-or-later.
+
+Consult the
+[`SDPX-License-Identifier`](https://spdx.dev/learn/handling-license-info/)
+comments to determine precisely what license applies to any particular file.
