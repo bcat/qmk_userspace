@@ -2,18 +2,17 @@
 // Copyright 2021 Jonathan Rascher
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-/* OLED pet "Luna" (animated doggo) originally by HellSingCoder
- * (https://www.simonepellegrino.com/) and licensed under GPL v2.0, adapted to
- * fit the OLED pet framework in bcat's userspace.
- *
- * The animation is 32x24 pixels (3 lines tall).
- *
- * Walks or runs in response to typing speed. Sneaks when Ctrl is pressed and
- * barks when Caps Lock is on. Jumps when space is pressed.
- *
- * Original source:
- * https://github.com/qmk/qmk_firmware/blob/6dfe915e26d7147e6c2bed495d3b01cf5b21e6ec/keyboards/sofle/keymaps/helltm/keymap.c
- */
+// OLED pet "Luna" (animated doggo) originally by HellSingCoder
+// (https://www.simonepellegrino.com/) and licensed under GPL v2.0, adapted to
+// fit the OLED pet framework in bcat's userspace.
+//
+// The animation is 32x24 pixels (3 lines tall).
+//
+// Walks or runs in response to typing speed. Sneaks when Ctrl is pressed and
+// barks when Caps Lock is on. Jumps when space is pressed.
+//
+// Original source:
+// https://github.com/qmk/qmk_firmware/blob/6dfe915e26d7147e6c2bed495d3b01cf5b21e6ec/keyboards/sofle/keymaps/helltm/keymap.c
 
 #include "bcat_oled_pet.h"
 
@@ -41,13 +40,13 @@ typedef union {
 } luna_state_t;
 
 #define NUM_FRAMES 2
-#define FRAME_BYTES 96 /* (32 pixel) * (24 pixel) / (8 pixel/byte) */
+#define FRAME_BYTES 96 // (32 pixel) * (24 pixel) / (8 pixel/byte)
 
 uint16_t oled_pet_frame_bytes(void) {
     return FRAME_BYTES;
 }
 uint8_t oled_pet_frame_lines(void) {
-    return 3 /* (24 pixel) / (8 pixel/line) */;
+    return 3; // (24 pixel) / (8 pixel/line)
 }
 bool oled_pet_can_jump(void) {
     return true;

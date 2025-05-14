@@ -7,7 +7,7 @@
 
 #include "quantum_keycodes.h"
 
-/* Layer numbers shared across keymaps. */
+// Layer numbers shared across keymaps.
 enum user_layer {
     LAYER_DEFAULT,
     LAYER_LOWER,
@@ -15,13 +15,13 @@ enum user_layer {
     LAYER_ADJUST,
 };
 
-/* Custom keycodes shared across keymaps. */
+// Custom keycodes shared across keymaps.
 enum user_keycode {
     CC_ALTT = SAFE_RANGE,
     KEYMAP_SAFE_RANGE,
 };
 
-/* Keycode aliases shared across keymaps. */
+// Keycode aliases shared across keymaps.
 #define KY_CSPC LCTL(KC_SPC)
 #define KY_ZMIN LCTL(KC_EQL)
 #define KY_ZMOUT LCTL(KC_MINS)

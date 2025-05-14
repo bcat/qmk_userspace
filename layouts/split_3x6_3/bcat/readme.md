@@ -1,7 +1,7 @@
 # bcat's 3x6+3 split layout
 
 This is my preferred split ergo layout for typing. It is loosely inspired by the
-default Planck (numbers on Lower, symbols on Raise) and Crkbd (Space on left,
+default Planck (symbols on Lower, numbers on Raise) and Crkbd (Space on left,
 Enter on right) layouts, but has since been redesigned heavily according to the
 principles described below.
 

@@ -17,18 +17,16 @@
 static bool oled_pet_should_jump = false;
 #endif
 
-/* Should be overridden by the keymap to render the OLED contents. For split
- * keyboards, this function is only called on the master side.
- */
+// Should be overridden by the keymap to render the OLED contents. For split
+// keyboards, this function is only called on the master side.
 __attribute__((weak)) void oled_task_keymap(const oled_keyboard_state_t *keyboard_state) {}
 
 bool oled_task_user(void) {
 #if defined(SPLIT_KEYBOARD)
     if (is_keyboard_master()) {
 #endif
-        /* Custom OLED timeout implementation that only considers user activity.
-         * Allows the OLED to turn off in the middle of a continuous animation.
-         */
+        // Custom OLED timeout implementation that only considers user activity.
+        // Allows the OLED to turn off in the middle of a continuous animation.
         static const uint16_t TIMEOUT_MILLIS = 60000 /* 1 min */;
 
         if (last_input_activity_elapsed() < TIMEOUT_MILLIS) {
@@ -46,14 +44,13 @@ bool oled_task_user(void) {
         }
 #if defined(SPLIT_KEYBOARD)
     } else {
-        /* Display logo embedded at standard location in the OLED font on the
-         * slave side. By default, this is a "QMK firmware" logo, but many
-         * keyboards substitute their own logo. Occupies 21x3 character cells.
-         *
-         * Since the slave display buffer never changes, we don't need to worry
-         * about oled_render incorrectly turning the OLED on. Instead, we rely
-         * on SPLIT_OLED_ENABLE to propagate OLED on/off status from master.
-         */
+        // Display logo embedded at standard location in the OLED font on the
+        // slave side. By default, this is a "QMK firmware" logo, but many
+        // keyboards substitute their own logo. Occupies 21x3 character cells.
+        //
+        // Since the slave display buffer never changes, we don't need to worry
+        // about oled_render incorrectly turning the OLED on. Instead, we rely
+        // on SPLIT_OLED_ENABLE to propagate OLED on/off status from master.
         static const char PROGMEM logo[] = {
             // clang-format off
             0x80, 0x81, 0x82, 0x83, 0x84, 0x85, 0x86, 0x87, 0x88, 0x89, 0x8a, 0x8b, 0x8c, 0x8d, 0x8e, 0x8f, 0x90, 0x91, 0x92, 0x93, 0x94,
@@ -136,26 +133,24 @@ static void redraw_oled_pet(uint8_t col, uint8_t line, bool jumping, oled_pet_st
 }
 
 void render_oled_pet(uint8_t col, uint8_t line, const oled_keyboard_state_t *keyboard_state) {
-    /* Current animation to draw. We track changes to avoid redrawing the same
-     * frame repeatedly, allowing oled_pet_post_render to draw over the
-     * animation frame.
-     */
+    // Current animation to draw. We track changes to avoid redrawing the same
+    // frame repeatedly, allowing oled_pet_post_render to draw over the
+    // animation frame.
     static oled_pet_state_t state         = 0;
     static bool             state_changed = true;
 
-    /* Minimum time until the pet comes down after jumping. */
+    // Minimum time until the pet comes down after jumping.
     static const uint16_t JUMP_MILLIS = 200;
     static bool           jumping     = false;
 
-    /* Time until the next animation or jump state change. */
+    // Time until the next animation or jump state change.
     static uint32_t update_timeout = 0;
     static uint32_t jump_timeout   = 0;
 
-    /* If the user pressed the jump key, immediately redraw instead of waiting
-     * for the animation frame to update. That way, the pet appears to respond
-     * to jump commands quickly rather than lagging. If the user released the
-     * jump key, wait for the jump timeout to avoid overly brief jumps.
-     */
+    // If the user pressed the jump key, immediately redraw instead of waiting
+    // for the animation frame to update. That way, the pet appears to respond
+    // to jump commands quickly rather than lagging. If the user released the
+    // jump key, wait for the jump timeout to avoid overly brief jumps.
     bool redraw = state_changed;
     if (oled_pet_should_jump && !jumping) {
         redraw       = true;
@@ -166,17 +161,16 @@ void render_oled_pet(uint8_t col, uint8_t line, const oled_keyboard_state_t *key
         jumping = false;
     }
 
-    /* Draw the actual animation, then move the cursor to the end of the
-     * rendered area. (Note that we take up an extra line to account for
-     * jumping, which shifts the animation up or down a line.)
-     */
+    // Draw the actual animation, then move the cursor to the end of the
+    // rendered area. (Note that we take up an extra line to account for
+    // jumping, which shifts the animation up or down a line.)
     if (redraw) {
         redraw_oled_pet(col, line, jumping, state);
     }
     oled_pet_post_render(col, line + !jumping, keyboard_state, redraw);
     oled_set_cursor(col, line + oled_pet_frame_lines() + 1);
 
-    /* If the update timer expired, recompute the pet's animation state. */
+    // If the update timer expired, recompute the pet's animation state.
     if (timer_expired32(timer_read32(), update_timeout)) {
         oled_pet_state_t new_state = oled_pet_next_state(state, keyboard_state);
         state_changed              = new_state != state;

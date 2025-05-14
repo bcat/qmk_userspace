@@ -2,19 +2,18 @@
 // Copyright 2021 Jonathan Rascher
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-/* OLED pet "Isda" (animated unicorn) featuring artwork by OpenGameArt user
- * sparrow666, licensed under GPL v2.0.
- *
- * The animation is 32x72 pixels (9 lines tall).
- *
- * Runs faster the quicker you type. Shows LED indicator (Num/Caps/Scroll Lock)
- * status in the bottom-right corner.
- *
- * Named after the goddess Ehlonna's personal unicorn in the first D&D campaign
- * I ever played. :)
- *
- * Artwork source: https://opengameart.org/content/unicorn-2
- */
+// OLED pet "Isda" (animated unicorn) featuring artwork by OpenGameArt user
+// sparrow666, licensed under GPL v2.0.
+//
+// The animation is 32x72 pixels (9 lines tall).
+//
+// Runs faster the quicker you type. Shows LED indicator (Num/Caps/Scroll Lock)
+// status in the bottom-right corner.
+//
+// Named after the goddess Ehlonna's personal unicorn in the first D&D campaign
+// I ever played. :)
+//
+// Artwork source: https://opengameart.org/content/unicorn-2
 
 #include "bcat_oled_pet.h"
 
@@ -27,13 +26,13 @@
 #include "progmem.h"
 
 #define NUM_FRAMES 4
-#define FRAME_BYTES 288 /* (32 pixel) * (72 pixel) / (8 pixel/byte) */
+#define FRAME_BYTES 288 // (32 pixel) * (72 pixel) / (8 pixel/byte)
 
 uint16_t oled_pet_frame_bytes(void) {
     return FRAME_BYTES;
 }
 uint8_t oled_pet_frame_lines(void) {
-    return 9 /* (72 pixel) / (8 pixel/line) */;
+    return 9; // (72 pixel) / (8 pixel/line)
 }
 bool oled_pet_can_jump(void) {
     return false;
@@ -51,16 +50,15 @@ uint16_t oled_pet_update_millis(const oled_keyboard_state_t *keyboard_state) {
 }
 
 oled_pet_state_t oled_pet_next_state(oled_pet_state_t state, const oled_keyboard_state_t *keyboard_state) {
-    /* When the user stops typing, cycle the animation to frame 0 and stop. */
+    // When the user stops typing, cycle the animation to frame 0 and stop.
     return state != 0 || keyboard_state->wpm > 0 ? (state + 1) % NUM_FRAMES : 0;
 }
 
 void oled_pet_post_render(uint8_t col, uint8_t line, const oled_keyboard_state_t *keyboard_state, bool redraw) {
-    /* Draws LED indicator status in the bottom-right corner of the OLED pet,
-     * atop the animation frame. Redrawn only when necessary, e.g., when LED
-     * status changes or the animation itself updated (which overwrites any
-     * previously drawn indicators).
-     */
+    // Draws LED indicator status in the bottom-right corner of the OLED pet,
+    // atop the animation frame. Redrawn only when necessary, e.g., when LED
+    // status changes or the animation itself updated (which overwrites any
+    // previously drawn indicators).
     static led_t prev_leds = {.raw = 0};
     led_t        leds      = keyboard_state->leds;
     if (redraw || leds.raw != prev_leds.raw) {

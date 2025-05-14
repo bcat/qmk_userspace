@@ -41,11 +41,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 bool encoder_update_user(uint8_t index, bool clockwise) {
     switch (index) {
         case 0:
-            /* Left encoder (scrolling) */
+            // Left encoder (scrolling):
             tap_code(clockwise ? KC_PGDN : KC_PGUP);
             return false;
         case 1:
-            /* Right encoder (volume) */
+            // Right encoder (volume):
             tap_code(clockwise ? KC_VOLU : KC_VOLD);
             return false;
         default:

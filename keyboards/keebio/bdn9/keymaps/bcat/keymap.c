@@ -22,19 +22,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
     switch (index) {
-        /* Top-left encoder (volume) */
+        // Top-left encoder (volume):
         case 0:
             tap_code(clockwise ? KC_VOLU : KC_VOLD);
             return false;
-        /* Top-right encoder (backlight brightness) */
+        // Top-right encoder (backlight brightness):
         case 1:
-#if defined(BACKLIGHT_ENABLE)
             if (clockwise) {
                 backlight_increase();
             } else {
                 backlight_decrease();
             }
-#endif
             return false;
     }
     return true;

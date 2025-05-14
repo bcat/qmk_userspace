@@ -3,7 +3,7 @@
 
 #pragma once
 
-/* WS2812B RGB LED strip hand wired to Elite-C. */
+// WS2812B RGB LED strip hand wired to Elite-C.
 #define WS2812_DI_PIN B7
 #define RGBLIGHT_LED_COUNT 15
 #define RGBLIGHT_EFFECT_BREATHING
