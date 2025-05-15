@@ -2,6 +2,7 @@
     "userspace_version": "1.1",
     "build_targets": [
         ["9key", "bcat"],
+        ["ai03/altair_x", "bcat"],
         [
             "ai03/polaris",
             "bcat",
