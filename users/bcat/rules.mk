@@ -1,21 +1,8 @@
-# Enable Bootmagic Lite for keyboards that don't have an easily accessible
-# reset button, but keep it disabled for all others to reduce firmware size.
-ifneq ($(filter $(strip $(KEYBOARD)),ai03/polaris dz60 kbdfans/kbd67/hotswap yanghu/unicorne/f411),)
-	BOOTMAGIC_ENABLE = yes
-else
-	BOOTMAGIC_ENABLE = no
-endif
-
 # Enable critical features on all keyboards.
+BOOTMAGIC_ENABLE = yes
 EXTRAKEY_ENABLE = yes
-TRI_LAYER_ENABLE = yes
-
-# Enable N-key rollover on all keyboards. In addition to its intended
-# functionality, as of July 2020, this is required for Chrome OS to process
-# media keys. (It appears that Chrome OS filters out key events from the second
-# USB endpoint's consumer and system control devices unless that endpoint also
-# reports a keyboard or mouse device.)
 NKRO_ENABLE = yes
+TRI_LAYER_ENABLE = yes
 
 # Enable link-time optimization and jump relaxing to reduce binary size.
 LTO_ENABLE = yes
@@ -56,13 +43,22 @@ MIDI_ENABLE = no
 SLEEP_LED_ENABLE = no
 
 # Disable other unused options on all keyboards.
+AUTOCORRECT_ENABLE = no
 AUTO_SHIFT_ENABLE = no
+CAPS_WORD_ENABLE = no
 COMBO_ENABLE = no
+DEBUG_ENABLE = no
+DYNAMIC_TAPPING_TERM_ENABLE = no
 GRAVE_ESC_ENABLE = no
 KEY_LOCK_ENABLE = no
+KEY_OVERRIDE_ENABLE = no
 LEADER_ENABLE = no
 MAGIC_ENABLE = no
+PROGRAMMABLE_BUTTON_ENABLE = no
+REPEAT_KEY_ENABLE = no
+SECURE_ENABLE = no
 SPACE_CADET_ENABLE = no
+STENO_ENABLE = no
 SWAP_HANDS_ENABLE = no
 TAP_DANCE_ENABLE = no
 UCIS_ENABLE = no
