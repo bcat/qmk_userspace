@@ -66,8 +66,7 @@ principles described below.
   layout. And yup, the shifted versions are above the unshifted versions.
 * Remaining keys from a TKL are placed out of the way on the bottom row of the
   left half.
-* The home row on the left half contains handy shortcuts for zooming and browser
-  navigation.
+* The home row on the left half contains volume and browser navigation hotkeys.
 * Lower+Esc is bound to Ctrl+Space because the Ctrl and Space keys are both on
   the left thumb, so this key combination (which I use for tmux prefix and
   editor autocomplete) is hard to press in its natural location.
@@ -106,10 +105,8 @@ principles described below.
 <details>
 <summary>Adjust layer notes</summary>
 
-* Media keys are centered around the ESDF cluster, just like I arrange them on
-  row-staggered keyboards. (It's even more sensible with columnar stagger.)
-* The navigation keys are replaced by RGB controls. Again, this mirrors the
-  positioning I use on my row-staggered keyboards.
-* Finally, reset keys live at the top-left corner of the right half where it's
+* Reset keys live at the top-left corner of the right half where it's
   reasonably hard to press them by accident.
+* Navigation keys are replaced by RGB controls. This mirrors the positioning I
+  use on my row-staggered keyboards.
 </details>

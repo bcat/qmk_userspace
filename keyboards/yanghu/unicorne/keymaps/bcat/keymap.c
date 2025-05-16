@@ -30,9 +30,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                       _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______
     ),
     [LAYER_ADJUST] = LAYOUT(
-        _______,  MU_TOGG,  KC_MPLY,  KC_VOLU,  KC_MSTP,  _______,                      EE_CLR,   QK_BOOT,  _______,  _______,  _______,  _______,
-        _______,  MU_NEXT,  KC_MPRV,  KC_VOLD,  KC_MNXT,  _______,                      RGB_RMOD, RGB_VAD,  RGB_VAI,  RGB_MOD,  RGB_SPI,  _______,
-        _______,  _______,  _______,  KC_MUTE,  _______,  _______,                      RGB_HUI,  RGB_SAD,  RGB_SAI,  RGB_HUD,  RGB_SPD,  _______,
+        _______,  MU_TOGG,  _______,  _______,  _______,  _______,                      EE_CLR,   QK_BOOT,  _______,  _______,  _______,  _______,
+        _______,  MU_NEXT,  _______,  _______,  _______,  _______,                      RGB_RMOD, RGB_VAD,  RGB_VAI,  RGB_MOD,  RGB_SPI,  _______,
+        _______,  _______,  _______,  _______,  _______,  _______,                      RGB_HUI,  RGB_SAD,  RGB_SAI,  RGB_HUD,  RGB_SPD,  _______,
                                       _______,  _______,  _______,  _______,  RGB_TOG,  _______,  _______,  _______
     ),
     // clang-format on
