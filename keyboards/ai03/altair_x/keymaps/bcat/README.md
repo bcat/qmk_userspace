@@ -15,7 +15,8 @@ macro keys on each side.
   a layer.
 * The left macro keys are mapped to browser zoom hotkeys, which are annoying to
   press otherwise.
-* The right macro keys are mapped to media keys (play/pause, next, previous).
+* The right macro keys are mapped to Ctrl+Shift+1 through Ctrl+Shift+3: generic
+  hotkeys that tend to be free for configuration in various applications.
 </details>
 
 | Default layer ([KLE](https://www.keyboard-layout-editor.com/#/gists/45acb37c9686c23498b04f370aa7ab0e)) |
