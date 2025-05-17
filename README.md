@@ -25,6 +25,7 @@ canonical ones (preferred for typing and gaming, respectively).
 
 ### Ergo
 
+* [ai03 Altair-X](keyboards/ai03/altair_x/keymaps/bcat)
 * [Lily58 layout](keyboards/lily58/keymaps/bcat)
 * [Unicorne layout](keyboards/yanghu/unicorne/keymaps/bcat)
 
