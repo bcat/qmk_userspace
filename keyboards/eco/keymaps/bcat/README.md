@@ -1,12 +1,13 @@
 # bcat's Eco layout
 
-This is a cute little 4x14 ortholinear keyboard. I've set it up using an
-unsplit, ortho version of my [split 3x6 + 3 thumb
-keys](/layouts/split_3x6_3/bcat) (Crkbd) layout with a few tweaks.
+This is a cute little 4x14 ortholinear keyboard that uses every IO pin available
+on a Pro Micro (or compatible) controller.
 
 <details>
 <summary>Layout notes</summary>
 
+* Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout. See that page for
+  detailed rationale on keymap design.
 * The alpha keys are separated by an extra two columns in the middle to provide
   a little more hand separation, similar to a split keyboard.
 * The top three rows of the extra middle columns feature navigation keys and

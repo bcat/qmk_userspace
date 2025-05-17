@@ -7,7 +7,8 @@ macro keys on each side.
 <details>
 <summary>Layout notes</summary>
 
-* Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout.
+* Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout. See that page for
+  detailed rationale on keymap design.
 * The leftmost bottom row key is mapped to Alt, enabling easier access to combos
   like Alt+F4.
 * The rightmost bottom row key is mapped to Super rather than just hiding it in

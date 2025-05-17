@@ -10,46 +10,41 @@ I use community layouts wherever possible, only writing keyboard-specific
 keymaps for boards without standard layout support. I derive my keymaps from two
 canonical ones (preferred for typing and gaming, respectively).
 
-## Canonical keymaps
+## Base keymaps
 
-* [3x6+3 split layout](layouts/split_3x6_3/bcat)
-  * Used on: Crkbd
-  * Columnar-staggered split ergo layout, preferred for typing
+* [Split 3x6+3](layouts/split_3x6_3/bcat) — Crkbd
+  * Columnar-staggered split ergo layout
+  * Preferred for typing and productivity
+* [60% ANSI Tsangan (split Backspace, Right
+  Shift)](layouts/60_ansi_tsangan_split_bs_rshift/bcat) — ai03 Polaris,
+  CannonKeys AN-C, CannonKeys Instant60, DZ60
+  * Traditional row-staggered layout
+  * Preferred for gaming
 
-* [60% ANSI Tsangan layout with split Backspace and Right
-  Shift](layouts/60_ansi_tsangan_split_bs_rshift/bcat)
-  * Used on: ai03 Polaris, CannonKeys AN-C, CannonKeys Instant60, DZ60
-  * Row-staggered layout, preferred for gaming
-
-## Additional keymaps
+## Derived keymaps
 
 ### Ergo
 
 * [ai03 Altair-X](keyboards/ai03/altair_x/keymaps/bcat)
-* [Lily58 layout](keyboards/lily58/keymaps/bcat)
-* [Unicorne layout](keyboards/yanghu/unicorne/keymaps/bcat)
+* [Lily58](keyboards/lily58/keymaps/bcat)
+* [Unicorne](keyboards/yanghu/unicorne/keymaps/bcat)
 
 ### Ortho
 
-* [Eco layout](keyboards/eco/keymaps/bcat)
+* [Eco](keyboards/eco/keymaps/bcat)
 
 ### Traditional
 
-* [60% ANSI layout with split Backspace and Right
-  Shift](layouts/60_ansi_split_bs_rshift/bcat)
-  * Used on: DZ60
+* [60% ANSI (split Backspace, Right
+  Shift)](layouts/60_ansi_split_bs_rshift/bcat) — DZ60
+* [65% ANSI (blocker and split
+  Backspace)](layouts/65_ansi_blocker_split_bs/bcat) — KBDfans KBD67 hotswap
+* [Keebio Quefrency 65%](keyboards/keebio/quefrency/keymaps/bcat)
 
-* [65% ANSI layout with blocker and split
-  Backspace](layouts/65_ansi_blocker_split_bs/bcat)
-  * Used on: KBDfans KBD67 hotswap
+## Macropad keymaps
 
-* [Keebio Quefrency 65% layout](keyboards/keebio/quefrency/keymaps/bcat)
-
-### Macropads
-
-* [9-Key layout](keyboards/9key/keymaps/bcat)
-
-* [Keebio BDN9 layout](keyboards/keebio/bdn9/keymaps/bcat)
+* [9-Key](keyboards/9key/keymaps/bcat)
+* [Keebio BDN9](keyboards/keebio/bdn9/keymaps/bcat)
 
 ## License
 

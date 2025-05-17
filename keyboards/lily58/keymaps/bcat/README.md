@@ -1,11 +1,13 @@
 # bcat's Lily58 layout
 
-This split ergo layout follows my preferred [split 3x6 + 3 thumb
-keys](/layouts/split_3x6_3/bcat) (Crkbd) layout with a few changes.
+This split ergo keyboard features 4x6 columnar-staggered keys and 4 thumb keys
+per side.
 
 <details>
 <summary>Layout notes</summary>
 
+* Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout. See that page for
+  detailed rationale on keymap design.
 * There's an optional number row at the top of the keyboard. I am quite used to
   using layers for numbers and symbols, so in practice this goes unused.
 * The dedicated Hyphen/Underscore and Equals/Plus keys on the number row are

@@ -1,12 +1,23 @@
 # bcat's Unicorne layout
 
-This ergo layout follows my preferred [split 3x6 + 3 thumb
-keys](/layouts/split_3x6_3/bcat) layout, adding bindings for the two rotary
-encoders on the bottom row. (The left encoder scrolls vertically and the right
-encoder adjusts volume.) Also, since the Unicorne keyboard has a speaker, I
-added bindings on the adjust layer to activate and configure music mode.
-Finally, an adorable unicorn prances on the OLED, running faster the quicker you
-type.
+The [Unicorne](https://github.com/yanghu/unicorne) keyboard is an un-split Crkbd
+with slightly altered columbar stagger and two extra thumb keys (including
+rotary encoder compatibility).
+
+<details>
+<summary>Layout notes</summary>
+
+* Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout. See that page for
+  detailed rationale on keymap design.
+* I built my Unicorne with rotary encoders: The left scrolls vertically and the
+  right adjusts volume. These were a fun gimmick at first, but in retrospect,
+  I'd prefer to use that as Alt and Super keys instead.
+* Since the Unicorne has a speaker, I added bindings on the Adjust layer to
+  activate and configure QMK's [music
+  mode](https://docs.qmk.fm/features/audio#music-mode).
+* Finally, an adorable unicorn prances on the OLED, running faster the quicker
+  you type.
+</details>
 
 | Default layer ([KLE](http://www.keyboard-layout-editor.com/#/gists/b6d0b16a913e7d1faeafc9fc751c413f)) |
 | :-: |

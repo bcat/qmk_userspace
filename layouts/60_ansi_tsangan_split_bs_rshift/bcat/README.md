@@ -1,8 +1,9 @@
-# bcat's 60% ANSI Tsangan layout with split Backspace and Right Shift
+# bcat's 60% ANSI Tsangan (split Backspace, Right Shift) layout
 
-This is a Tsangan/HHKB (split Backspace, split Right Shift) layout based on the
-[traditional HHKB layout](https://hhkb.io/layout/) with some custom [DIP
-switch](https://hhkb.io/components/controllers/) settings and a few more tweaks.
+This is a Tsangan layout based on the [HHKB layout](https://hhkb.io/layout/)
+with some [DIP switch](https://hhkb.io/components/controllers/) setting changes,
+plus a few more tweaks. (I use this layout with both standard 60% cases and ones
+with HHKB blockers.)
 
 <details>
 <summary>Layout notes</summary>

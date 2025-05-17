@@ -1,8 +1,17 @@
 # bcat's Quefrency 65% layout
 
-This is a standard 65% keyboard layout, with a split spacebar, an HHKB-style
-(split) Backspace plus function layer, and RGB controls in the adjust layer (on
-the arrow/nav keys).
+This is a split 65% keyboard layout with an HHKB-style (split) Backspace.
+
+<details>
+<summary>Layout notes</summary>
+
+* Based on [60% Tsangan](/layouts/60_ansi_tsangan_split_bs_rshift/bcat) layout.
+  See that page for detailed rationale on keymap design.
+* The bottom row is laid out more like a traditional TKL keyboard, with the
+  Super key on the left and Fn keys on each side.
+* Dedicated arrow and navigation keys replace the HHKB diamond cluster (which
+  I've since grown to prefer).
+</details>
 
 | Default layer ([KLE](http://www.keyboard-layout-editor.com/#/gists/60a262432bb340b37d364a4424f3037b)) |
 | :-: |
