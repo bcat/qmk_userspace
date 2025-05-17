@@ -18,9 +18,8 @@ switch](https://hhkb.io/components/controllers/) settings and a few more tweaks.
   feature](https://docs.qmk.fm/#/feature_tri_layer) commonly used on ortholinear
   keyboards, except that the Left Fn and Right Fn keys both active the same
   function layer when pressed on their own.)
-* The adjust layer contains reset keys, RGB underglow and backlight controls (in
-  place of the arrow and navigation keys), and media controls (centered around
-  the ESDF cluster).
+* The adjust layer contains reset keys, RGB underglow, and backlight controls
+  (in place of the arrow and navigation keys).
 * The leftmost and rightmost bottom row keys are mapped to Ctrl rather than
   anything more useful because many of my Tsangan PCBs have HHKB-layout plates
   and/or blockers, and so it's not even guaranteed there are switches installed

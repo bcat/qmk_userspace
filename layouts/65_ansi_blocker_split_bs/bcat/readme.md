@@ -1,8 +1,7 @@
 # bcat's 65% ANSI layout with blocker and split Backspace
 
 This is a standard 65% keyboard layout, with a blocker to the left of the arrow
-keys, an HHKB-style (split) Backspace, and media controls in the function layer
-(centered around the ESDF cluster).
+keys and an HHKB-style (split) Backspace.
 
 | Default layer ([KLE](http://www.keyboard-layout-editor.com/#/gists/dd675b40cc4df2c7bb78847ac29f5988)) |
 | :-: |

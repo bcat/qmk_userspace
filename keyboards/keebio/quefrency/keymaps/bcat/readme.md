@@ -1,8 +1,8 @@
 # bcat's Quefrency 65% layout
 
 This is a standard 65% keyboard layout, with a split spacebar, an HHKB-style
-(split) Backspace, media controls in the function layer (centered around the
-ESDF cluster), and RGB controls in the adjust layer (on the arrow/nav keys).
+(split) Backspace plus function layer, and RGB controls in the adjust layer (on
+the arrow/nav keys).
 
 | Default layer ([KLE](http://www.keyboard-layout-editor.com/#/gists/60a262432bb340b37d364a4424f3037b)) |
 | :-: |
