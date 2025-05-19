@@ -14,7 +14,7 @@ per side.
   placed in the same positions as on the ErgoDox EZ. (There's no real reason for
   this; I just had to do _something_ with those keys.)
 * The extra bottom row keys are mapped to Alt and Super for convenience, just as
-  they are on my [Altair-X](/keyboards/ai03/altair_x/bcat).
+  they are on my [Altair-X](/keyboards/ai03/altair_x/keymaps/bcat).
 * The additional keys below the controllers are bound to browser zoom keys.
 </details>
 

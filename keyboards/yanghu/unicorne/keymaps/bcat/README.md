@@ -12,7 +12,8 @@ rotary encoder compatibility).
 * I built my Unicorne without encoders, as I've always found them a fun gimmick,
   but not something I regularly use.
 * Instead, the extra bottom row keys are mapped to Alt and Super for
-  convenience, just as they are on my [Altair-X](/keyboards/ai03/altair_x/bcat).
+  convenience, just as they are on my
+  [Altair-X](/keyboards/ai03/altair_x/keymaps/bcat).
 * Since the Unicorne has a speaker, I added bindings on the Adjust layer to
   activate and configure QMK's [music
   mode](https://docs.qmk.fm/features/audio#music-mode).
