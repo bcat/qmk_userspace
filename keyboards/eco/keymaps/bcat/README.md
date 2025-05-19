@@ -8,13 +8,13 @@ on a Pro Micro (or compatible) controller.
 
 * Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout. See that page for
   detailed rationale on keymap design.
-* The alpha keys are separated by an extra two columns in the middle to provide
-  a little more hand separation, similar to a split keyboard.
+* The alpha keys are spaced around the middle two columns, providing a little
+  more hand separation, similar to a split keyboard.
 * The top three rows of the extra middle columns feature navigation keys and
   brackets/braces. I don't really use dedicated keys for these, but I had the
   keycaps, so I figured I may as well put them there.
 * I have a Left Alt and Right Super key on the bottom row just like my
-  [Lily58](/keyboards/lily58/keymaps/bcat).
+  [Altair-X](/keyboards/ai03/altair_x/keymaps/bcat).
 * The two keys in each bottom corner are unbound, as is the 2U spacebar in the
   center of the bottom row. These keys are too inconvenient to reach, and
   there's nothing really useful to bind them to anyway.

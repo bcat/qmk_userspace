@@ -13,9 +13,9 @@ per side.
 * The dedicated Hyphen/Underscore and Equals/Plus keys on the number row are
   placed in the same positions as on the ErgoDox EZ. (There's no real reason for
   this; I just had to do _something_ with those keys.)
-* The extra thumb keys on the bottom row are used for a Left Alt key (for easier
-  Alt+Tab, Alt+F4, etc.) and a dedicated Super key.
-* The extra thumb keys below the controllers are bound to browser zoom keys.
+* The extra bottom row keys are mapped to Alt and Super for convenience, just as
+  they are on my [Altair-X](/keyboards/ai03/altair_x/bcat).
+* The additional keys below the controllers are bound to browser zoom keys.
 </details>
 
 | Default layer ([KLE](http://www.keyboard-layout-editor.com/#/gists/e0eb3af65961e9fd612dcff3ddd88e4f)) |

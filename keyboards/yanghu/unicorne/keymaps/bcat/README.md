@@ -1,7 +1,7 @@
 # bcat's Unicorne layout
 
 The [Unicorne](https://github.com/yanghu/unicorne) keyboard is an un-split Crkbd
-with slightly altered columbar stagger and two extra thumb keys (including
+with slightly altered columnar stagger and two extra thumb keys (including
 rotary encoder compatibility).
 
 <details>
@@ -9,9 +9,10 @@ rotary encoder compatibility).
 
 * Based on [split 3x6+3](/layouts/split_3x6_3/bcat) layout. See that page for
   detailed rationale on keymap design.
-* I built my Unicorne with rotary encoders: The left scrolls vertically and the
-  right adjusts volume. These were a fun gimmick at first, but in retrospect,
-  I'd prefer to use that as Alt and Super keys instead.
+* I built my Unicorne without encoders, as I've always found them a fun gimmick,
+  but not something I regularly use.
+* Instead, the extra bottom row keys are mapped to Alt and Super for
+  convenience, just as they are on my [Altair-X](/keyboards/ai03/altair_x/bcat).
 * Since the Unicorne has a speaker, I added bindings on the Adjust layer to
   activate and configure QMK's [music
   mode](https://docs.qmk.fm/features/audio#music-mode).
