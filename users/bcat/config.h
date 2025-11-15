@@ -4,7 +4,7 @@
 // Enable NKRO by default. All my devices support this, and it enables me to
 // dispense with the NK_TOGG key, thus saving firmware space by not compiling
 // magic keycode support.
-#define FORCE_NKRO
+#define NKRO_DEFAULT_ON true
 
 // Wait between tap_code register and unregister to fix flaky media keys.
 #undef TAP_CODE_DELAY
