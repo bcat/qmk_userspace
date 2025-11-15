@@ -17,7 +17,7 @@ canonical ones (preferred for typing and gaming, respectively).
   * Preferred for typing and productivity
 * [60% ANSI Tsangan (split Backspace, Right
   Shift)](layouts/60_ansi_tsangan_split_bs_rshift/bcat) — ai03 Polaris,
-  CannonKeys AN-C, CannonKeys Instant60, DZ60
+  CannonKeys AN-C, CannonKeys Instant60, DZ60, Keycult Zero
   * Traditional row-staggered layout
   * Preferred for gaming
 

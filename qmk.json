@@ -53,6 +53,13 @@
                 "FORCE_LAYOUT": "65_ansi_blocker_split_bs"
             }
         ],
+        [
+            "keycult/keycult_zero",
+            "bcat",
+            {
+                "FORCE_LAYOUT": "60_ansi_tsangan_split_bs_rshift"
+            }
+        ],
         ["keebio/bdn9/rev1", "bcat"],
         ["keebio/quefrency/rev1", "bcat"],
         ["lily58/rev1", "bcat"],
